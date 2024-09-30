@@ -5,6 +5,15 @@
 
 Tired of setting up Django projects manually? Meet `ldjango` - your magical wand for creating perfectly structured Django projects in a snap! 🪄✨
 
+
+## 🎥 See ldjango in Action!
+
+![Demo ldjango](https://raw.githubusercontent.com/lrndwy/ldjango/main/Screen%20Recording%20Sept%2026%20(1).gif)
+
+Watch how ldjango creates a Django project easily and quickly!
+
+
+
 ## 🌟 What's So Special?
 
 - **Lightning-Fast Setup**: Create a fully structured Django project with just one command!
@@ -24,6 +33,7 @@ Tired of setting up Django projects manually? Meet `ldjango` - your magical wand
 - **NPM Scripts**: Use NPM scripts to compile your CSS and run other development tasks.
 - **Django Commands**: Use Django commands to manage your project and apps.
 - **Version Control**: Includes a `.gitignore` file to exclude unnecessary files from your repository.
+- **Environment Variables**: Uses a `.env` file to store environment variables for the project.
 
 
 ## 🛠️ Installation
@@ -67,6 +77,7 @@ Follow the prompts, and watch the magic happen! ✨
 - `ldjango makeproject`: Start the interactive project creation wizard
 - `ldjango -h` or `ldjango --help`: Display help information
 - `ldjango --version`: Show the version of ldjango you're using
+- `ldjango generate-secret-key`: Generate a new secret key for Django
 
 ## 📁 The ldjango Special: Project Structure
 
@@ -119,6 +130,8 @@ project_root/
 │   ├── base.html                # Base HTML template for the application
 │
 ├── .gitignore                   # File to specify files/folders that Git should ignore
+├── .env                         # Environment variables for the project
+├── .env.example                 # Example environment variables for the project
 ├── db.sqlite3                   # SQLite database used by the project
 ├── manage.py                    # Command-line script to manage the Django project
 ├── package-lock.json            # File locking the versions of npm dependencies
@@ -141,6 +154,8 @@ project_root/
 10. **JavaScript Support**: Includes a `node_modules` folder for managing JavaScript dependencies.
 11. **NPM Scripts**: Use NPM scripts to compile your CSS and run other development tasks.
 12. **Django Commands**: Use Django commands to manage your project and apps.
+13. **Environment Variables**: Uses a `.env` file to store environment variables for the project.
+
 
 ## 🤔 Why Choose ldjango?
 
@@ -159,7 +174,8 @@ project_root/
 - **Database**: Uses SQLite by default, but you can easily switch to your preferred database.
 - **JavaScript Support**: Includes a `node_modules` folder for managing JavaScript dependencies.
 - **NPM Scripts**: Use NPM scripts to compile your CSS and run other development tasks.
-
+- **Django Commands**: Use Django commands to manage your project and apps.
+- **Environment Variables**: Uses a `.env` file to store environment variables for the project.
 
 ## 📜 License
 
@@ -167,9 +183,9 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## 📞 Let's Connect!
 
-Liaranda - [@lrnd.__](https://instagram.com/lrnd.__) - hafiztamvan15@gmail.com
+My Instagram - [@lrnd.__](https://instagram.com/lrnd.__)
 
-Project Link: [Liaranda](https://github.com/lrndwy)
+Project Link: [ldjango](https://github.com/lrndwy/ldjango)
 
 ---
 
